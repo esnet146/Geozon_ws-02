@@ -58,11 +58,11 @@ output:
     id: relay_2
   - id: led1
     platform: gpio
-    inverted: true
+    inverted: true # включено - синий, выключено - красный. если нужно наборот - убрать
     pin: GPIO14
   - id: led2
     platform: gpio
-    inverted: true
+    inverted: true # включено - синий, выключено - красный. если нужно наборот - убрать
     pin: GPIO01
 
 
